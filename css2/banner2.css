@@ -1,0 +1,37 @@
+.banner-full .image {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-full .image img {
+  height: 625px;
+}
+
+@media (max-width: 768px) {
+  .banner-full .image {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-full .block {
+    text-align: center;
+  }
+}
+
+.banner-full .block .logo {
+  margin-bottom: 40px;
+}
+
+.banner-full .block h1 {
+  margin-bottom: 40px;
+}
+
+.banner-full .block p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.banner-full .block .app {
+  margin-bottom: 20px;
+}

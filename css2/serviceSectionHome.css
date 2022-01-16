@@ -1,0 +1,68 @@
+.client-slider5 {
+  background: #fff;
+  margin: 0px 50px;
+}
+
+
+
+.client-slider5 .item img {
+  max-width: 80%;
+
+}
+
+.client-slider5 .item h1 {
+  font-size: 17px;
+  color: #1b55ac;
+  font-weight: 460;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.servicesSection {
+
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  background: white;
+  padding: 20px;
+  margin: 0px;
+
+
+}
+
+
+
+
+@media (max-width: 968px) {
+
+  .client-slider5 {
+    background: #fff;
+    margin: 0px;
+  }
+
+
+  .servicesSection {
+
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    background: #fff;
+    padding: 20px 0px;
+    margin: 0px;
+    border: none;
+    margin-top: -150px;
+    position: relative;
+
+  }
+
+  .client-slider5 .item img {
+    max-width: 80%;
+  }
+
+}

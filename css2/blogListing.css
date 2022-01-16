@@ -1,0 +1,42 @@
+.BlogListing {
+  padding: 0px;
+  margin: 0px;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.postBox {
+  margin-bottom: 20px;
+}
+
+.post-sm1 {
+  padding-bottom: 20px;
+}
+
+.post-thumb1 {}
+
+.post-thumb1 a img {
+  max-height: 300px;
+}
+
+.post-title1 {}
+
+.post-title1 h3 {
+  margin-top: 10px;
+}
+
+.post-title1 h3 a {
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.post-meta1 {}
+
+.post-details1 {}
+
+.post-details1 p {
+  font-size: 17px;
+  font-weight: 400;
+
+}

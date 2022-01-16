@@ -1,0 +1,28 @@
+.mainTopSlider {
+  background: #fff;
+  padding: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.about-slider3 .item {
+  padding: 0px;
+  margin: 0px;
+}
+
+.about-slider3 .item img {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+
+.about-slider3 .owl-dots .owl-dot:hover span {
+  background: #2e7eed;
+  padding: 0px;
+  margin: 0px;
+}
+
+.about-slider3 .owl-dots .owl-dot.active span {
+  background: #2e7eed;
+}

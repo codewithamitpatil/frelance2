@@ -1,0 +1,91 @@
+.client-slider {
+  background: #fff;
+}
+
+
+
+.client-slider img {
+  max-width: 80%;
+
+}
+
+.client-slider h1 {
+  font-size: 17px;
+  color: #1b55ac;
+  font-weight: 460;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.servicesSection {
+
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  background: white;
+  padding: 20px;
+  margin: 0px;
+
+}
+
+
+.servicesSection2 {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background: white;
+}
+
+.service-slider {
+  margin-top: 30px;
+}
+
+.serviceWhite {
+  background: white
+}
+
+
+
+
+
+@media (max-width: 968px) {
+
+  .servicesSection {
+
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    background: #fff;
+    padding: 20px;
+    margin: 0px;
+    border: none;
+    margin-top: -150px;
+    position: relative;
+  }
+
+  .servicesSection2 {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: white;
+
+  }
+
+  .service-slider {
+    margin-top: 0px;
+  }
+
+
+}

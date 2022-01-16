@@ -1,0 +1,24 @@
+.headerModify {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  /** aaaa**/
+  color: #00102b;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+
+}
+
+.TopHeading {
+  font-size: 30px;
+  font-weight: 400;
+
+  /** aaaa**/
+  color: #00102b;
+  color: #1b55ac;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+
+}
