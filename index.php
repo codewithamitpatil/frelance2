@@ -42,7 +42,7 @@
 
   <!-- CUSTOM CSS -->
   <link href="css2/style2.css" rel="stylesheet">
-  <link href="css/common.css" rel="stylesheet">
+  <!-- <link href="css/common.css" rel="stylesheet"> -->
   <link href="css2/navigation.css" rel="stylesheet">
   <link href="css2/banner.css" rel="stylesheet">
   <link href="css2/footer.css" rel="stylesheet">
@@ -405,7 +405,7 @@
 
     <div class="contactUsSection">
 
-      <div class="contact3 ">
+      <div class="contact4">
         <div class="row no-gutters">
           <div class="container">
             <div class="row picUpContact">
@@ -416,8 +416,8 @@
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="contact-box contChange ml-3">
-                  <h1 class="font-weight-light mt-2">Quick Contact</h1>
+                <div class="contact-box  ">
+                  <h1 class="QuickContact">Quick Contact</h1>
                   <form class="mt-4">
                     <div class="row">
 
@@ -449,9 +449,9 @@
                         <div class="mr-3 align-self-center">
                           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon2.png">
                         </div>
-                        <div class="contChange">
-                          <h6 class="font-weight-medium">Phone</h6>
-                          <p class="">+65 8932 5802
+                        <div>
+                          <h6 class="ContactHeadh5">Phone</h6>
+                          <p class="ContactP">+65 8932 5802
                             <br> +65 9634 8123</p>
                         </div>
                       </div>
@@ -462,8 +462,8 @@
                           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon3.png">
                         </div>
                         <div class="contChange">
-                          <h6 class="font-weight-medium">Email</h6>
-                          <p class="">
+                          <h6 class="ContactHeadh5">Email</h6>
+                          <p class="ContactP">
                             sales@singaporelabs.sg
                             <br>
                           </p>
@@ -475,9 +475,9 @@
                         <div class="mr-3 align-self-center">
                           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon1.png">
                         </div>
-                        <div class="contChange">
+                        <div class="ContactHeadh5">
                           <h6 class="font-weight-medium">Address</h6>
-                          <p>28 Simei Street 1, Unit #08-04,
+                          <p class="ContactP">28 Simei Street 1, Unit #08-04,
 
                             Singapore 529948 </p>
                         </div>
