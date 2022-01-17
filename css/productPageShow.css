@@ -1,0 +1,276 @@
+.ProductPageSection {
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+
+}
+
+.productMainHeading {
+  font-size: 30px;
+  font-weight: 400;
+
+  /** aaaa**/
+  color: #00102b;
+  color: #1b55ac;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.leftSideProductDes {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.productHeroImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productHeroImg img {
+  width: 50%;
+  border-radius: 34px;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ProductContent {
+  margin-left: -50px;
+  padding-top: 30px;
+}
+
+.ProductContent h2 {
+  color: #1b55ac;
+  /* font-size: 14px; */
+  font-weight: 240;
+}
+
+.ProductContent p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #808080;
+  color: #79889e;
+  font-weight: 400;
+}
+
+
+@media (max-width: 968px) {
+
+  .ProductContent {
+    margin-left: 0px;
+    padding-top: 30px;
+  }
+
+  .productHeroImg img {
+    width: 100%;
+    border-radius: 34px;
+  }
+
+  .ProductContent h2 {
+    font-size: 22px;
+  }
+}
+
+
+/****************productPageSubSection*********************/
+
+
+.ProductPageSectionSub {
+  background: #1b55ac;
+  ;
+  margin: 0px;
+  padding: 20px;
+
+}
+
+
+.productSubHeading {
+  font-size: 30px;
+  font-weight: 400;
+  color: #00102b;
+  color: #1b55ac;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.productListing {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.productListing .post-sm {
+  background: white;
+  /* border: 1px solid white; */
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.post-thumb1 img {
+  border-radius: 14px 14px 0px 0px;
+  border: none;
+  outline: none;
+}
+
+.post-title {
+  text-align: center;
+  padding: 10px;
+}
+
+.post-title h5 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #00102b;
+  color: #1b55ac;
+}
+
+.post-title h4 {
+  font-size: 17px;
+  color: #79889e;
+  font-weight: 400;
+}
+
+.productListing .post-sm {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 968px) {
+
+  .productListing .post-sm {
+    margin-bottom: 80px;
+  }
+
+}
+
+/* .ProductPageSection {
+  margin-top: 170px;
+  color: #000;
+}
+
+.productHeading {
+  display: flex;
+  justify-content: center;
+}
+
+.productHeading h1 {
+  color: #1b55ac;
+  font-weight: normal;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.ProductContent {
+  margin-left: 130px;
+}
+
+.ProductContent p {
+  color: #3f3f43;
+}
+
+.ProductContent h2 {
+  color: #1b55ac;
+  font-size: 29px;
+  text-align: center;
+  font-weight: normal;
+  color: #3e4555;
+  color: #1b55ac;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+.productCard {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  margin-right: 20px;
+}
+
+.productCard img {
+  width: 100%;
+  height: 220px;
+  min-width: 254px;
+}
+
+.productheader {
+
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  color: #00102b;
+}
+
+.post-title h4 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.post-title h5 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  color: #3e4555;
+  color: #1b55ac;
+  margin-top: 10px;
+}
+
+.post-title h4 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.ProductPageSectionSub {
+  margin-top: -150px;
+}
+
+@media (max-width: 968px) {
+
+
+  .ProductPageSectionSub {
+    margin-top: -200px;
+  }
+
+  .ProductContent {
+    margin-left: 10px;
+  }
+
+  .ProductContent p {
+    text-align: left;
+    margin-top: -10px;
+  }
+
+  .ProductContent h2 {
+    text-align: center;
+    font-size: 27px;
+    margin-top: 10px;
+  }
+
+  .productCard {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    margin-left: 5px;
+  }
+
+  .productCard img {
+    width: 100%;
+    min-width: 100%;
+    min-height: 230px;
+
+  }
+
+} */

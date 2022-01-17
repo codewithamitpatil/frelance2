@@ -1,0 +1,125 @@
+.clients .client-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.clients .client-slider img {
+  max-width: 80%;
+}
+
+
+.clients .client-slider h1 {
+  font-size: 17px;
+  color: #1b55ac;
+  font-weight: 460;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-nav .navbar-nav .nav-item {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 45px;
+  color: white;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link span i {
+  font-size: 11px;
+}
+
+.main-nav .navbar-nav .nav-item.active .nav-link {}
+
+.main-nav .navbar-nav .nav-item.active .nav-link::before {
+  content: "";
+  width: 60%;
+  height: 2px;
+  position: absolute;
+  bottom: 0px;
+  left: 20%;
+  background: white;
+}
+
+
+.main-nav .dropdown {
+  position: relative;
+}
+
+.main-nav .dropdown .open>a,
+.main-nav .dropdown .open>a:focus,
+.main-nav .dropdown .open>a:hover {
+  background: transparent;
+}
+
+.main-nav .dropdown.full-width .dropdown-menu {
+  left: 0px !important;
+  right: 0px !important;
+}
+
+.main-nav .dropdown .dropdown-menu {
+  border-radius: 0px;
+  padding: 0px;
+  border: 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 30px;
+  display: none;
+  margin-top: 0px;
+}
+
+.main-nav .dropdown .dropdown-menu.show {
+  display: block;
+}
+
+.main-nav .dropdown .dropdown-menu .dropdown-item {
+  font-size: 13px;
+  padding: 3px 22px;
+  transition: all 0.3s ease 0s;
+}
+
+.main-nav .dropdown .dropdown-menu .dropdown-item.active,
+.main-nav .dropdown .dropdown-menu .dropdown-item.focus,
+.main-nav .dropdown .dropdown-menu .dropdown-item:focus,
+.main-nav .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: transparent;
+  color: rgb(46, 126, 237);
+}
+
+.main-nav .dropdown .dropdown-menu li:first-child {
+  margin-top: 10px;
+}
+
+.main-nav .dropdown .dropdown-menu li:last-child {
+  margin-bottom: 10px;
+}
+
+.dropdown-submenu.active>a,
+.dropdown-submenu:hover>a {
+  color: rgb(46, 126, 237);
+}

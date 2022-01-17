@@ -1,0 +1,45 @@
+.PostSection {
+
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+.spacing {
+  margin-top: 10px;
+}
+
+
+
+.post-sm {
+  margin-bottom: 40px;
+}
+
+.post-sm .post-thumb {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.post-sm .post-thumb img {
+  transition: 0.3s ease;
+}
+
+.post-sm .post-title {
+  margin-bottom: 15px;
+}
+
+
+.PostSection .container .row .col-lg-4 .post-sm .post-thumb a img {
+  max-height: 400px;
+}
+
+.PostSection .container .row .col-lg-4 .post-sm .post-title h3 a {}
+
+.PostSection .container .row .col-lg-4 .post-sm .post-title h3 a:hover {}
+
+.PostSection .container .row .col-lg-4 .post-sm .post-meta ul li a {}
+
+.PostSection .container .row .col-lg-4 .post-sm .post-meta ul li {}
+
+.PostSection .container .row .col-lg-4 .post-sm .post-details p {}
