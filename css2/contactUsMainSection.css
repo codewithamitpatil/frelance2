@@ -73,15 +73,6 @@ p {
   color: white;
 }
 
-/***  2 ***/
-.contactUsSection2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-
-  padding: 0px;
-  padding-top: 30px;
-
-}
 
 .ContChange p {
   color: #79889e;
@@ -187,4 +178,10 @@ p {
   .contctImg2 img {
     width: 90%;
   }
+
+  .picUpContact {
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+
 }

@@ -5,12 +5,12 @@
 
 
 
-.client-slider5 .item img {
+.serviceCard img {
   max-width: 80%;
 
 }
 
-.client-slider5 .item h1 {
+.serviceCard h1 {
   font-size: 17px;
   color: #1b55ac;
   font-weight: 460;
@@ -42,7 +42,6 @@
 @media (max-width: 968px) {
 
   .client-slider5 {
-    background: #fff;
     margin: 0px;
   }
 
@@ -61,7 +60,7 @@
 
   }
 
-  .client-slider5 .item img {
+  .serviceCard img {
     max-width: 80%;
   }
 
